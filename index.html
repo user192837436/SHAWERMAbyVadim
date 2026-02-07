@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="language" href="en-US" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>SHAWARMA</title>
+    <meta name="description" content="Where every bite feels like home!" />
+    <meta name="ROBOTS" content="ALL" />
+    <meta name="keywords" content="burger,restaurant,lunch" />
+    <link rel="author" href="https://github.com/codehasan" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>Shawarma: because sometimes the best decisions are wrapped in pita.</h2>
+          <h1>SHAWARMA<br /><span>WEEK</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MOST POPULAR SHAWARMA</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY SHAWARMA</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        Whether you crave traditional Middle Eastern flavors or bold modern twists, this is where your shawarma adventure begins. Indulge your cravings and savor every bite as you create your personalized wrap masterpiece with Shawarma House.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Classic shawarma</h4>
+          <p>
+            The timeless favorite. Tender marinated chicken or beef, slowly grilled on a rotating spit, thinly sliced and wrapped in warm pita. Crisp lettuce, juicy tomatoes, onions, and a generous drizzle of our signature garlic sauce. Simple, authentic, and always satisfying.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>CHEESE SHAWARMA</h4>
+          <p>
+            Indulgent & melty. Our classic shawarma, upgraded. Loaded with a double portion of grilled meat, then layered with melted mozzarella and creamy feta cheese. Topped with fresh veggies and our special garlic-cheese sauce for an extra rich, gooey experience in every bite.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>Spicy Shawarma</h4>
+          <p>
+            For the brave. Fiery marinated meat, sliced hot off the grill, combined with fresh veggies and a daring kick of homemade spicy harissa sauce. Finished with a touch of chili flakes and jalapeños for those who love their wrap with a blazing personality. Not for the faint of heart.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">SHAWARMA CELEBRATIONS</h2>
+          <p class="section__description">
+            From exclusive shawarma masterclasses and chef's special nights to community feasts and seasonal food festivals, there's always something sizzling at Shawarma House. Be the first to know about our upcoming grill sessions, limited-time wraps, and festive gatherings as we continue to bring warmth and flavor to our cherished guests. Join us in creating memorable moments and delicious memories together!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/">
+          <input type="text" placeholder="NAME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATE" />
+          <input type="time" placeholder="TIME" />
+          <input type="number" placeholder="PEOPLE" />
+          <button class="btn btn-square" type="submit">FIND TABLE</button>
+        </form>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Shawarma House, where passion for authentic street food and warm hospitality come together. Our story is one of dedication to crafting the perfect wrap experience – from sourcing the freshest ingredients to delivering unforgettable taste in every bite. Inspired by traditional Middle Eastern recipes and grilled over open flame, each shawarma is a journey of flavor wrapped with care.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Shop No-02, 37/2 Purana Paltan
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@ShawarmaHouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 Vadim Penkin. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
